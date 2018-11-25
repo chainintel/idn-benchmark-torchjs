@@ -15,7 +15,8 @@ class TorchBenchmark {
   }
   async benchmark(modelPkg) {
     const loader = new Loader();
-    const model = await loader.load(modelPkg);
+    const pkg = await loader.load(modelPkg);
+    const model = pkg.model;
     let runner = await this.backend.init(model);
     // prerun
     for (let i = 0; i < 1; i++) {

@@ -39,9 +39,8 @@
     "webpack-node-externals": "^1.7.2"
   },
   "dependencies": {
-    "@idn/backend-torchjs": "^1.0.4",
-    "@idn/backend-webdnn": "^1.0.1",
-    "@idn/loader": "^1.0.0",
+    "@idn/backend-torchjs": "^1.0.10",
+    "@idn/loader": "^1.0.5",
     "@idn/util-promisify": "^1.0.0",
     "async": "^2.6.1"
   }
